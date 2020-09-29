@@ -113,12 +113,12 @@
 <section class="ftco-section ftco-no-pt ftco-no-pb">
 	    </section>
 	  <div class="contact-form" style="background: hsla(0,0%,0%,0.00)">
-				<form>
+				<form action="php/correocontacto.php" method="post">
 					<h1 style="color: hsla(0,0%,0%,1.00)">Contáctanos</h1>
-					<input type="text" placeholder="Nombre">
-					<input type="text" placeholder="Correo">
-					<textarea>Mensaje</textarea>
-					<button>Enviar Mensaje</button>
+					<input type="text" value="Nombre" placeholder="Nombre" required>
+					<input type="text" value="Correo" placeholder="Correo" required>
+					<textarea name="Mensaje">Mensaje</textarea>
+					<button type="submit">Enviar Mensaje</button>
 				</form>
 		<p><strong><h7>Información de contacto!</h7></strong><br>
 <strong>Dirección:</strong> Calle Rivero, Arequipa Metropolitana 04001<br>
